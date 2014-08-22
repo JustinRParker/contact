@@ -1,0 +1,91 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+// Custom Styles
+body {
+ 
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Share Tech Mono', Helvetica, Arial, sans-serif;
+  max-width: 320px;
+  height: 569px;
+  margin-top: 0;
+  margin: auto;
+  overflow: visible;
+  border: 3px, #000000;
+
+  @media screen and (max-width: 569px) {
+  	width:100%;
+  }
+}
+
+.businessCard{
+	background-image: url(../images/R2D2-Background.jpg);
+	border-style: solid;
+    border-width: 2px;
+	height: 572px;
+
+	.name{
+		float: right;
+		color: #FFFFFF;
+		margin-right: 7px;
+		}
+
+	.title{
+		color: #FFFFFF;
+		display: block;
+		margin: 2px 0 0 25px;
+		float:left;
+		
+		}
+
+	.avatar{
+			float: left;	
+			height: 100px;
+			margin-top: 13px;
+			}
+	.phone{
+		background-color: #FFFFFF;
+		font-size: 2em;
+		float: right;
+		color: #283890;
+		margin-top: 30px;
+		opacity: .8;
+		padding: 10px;
+	}
+
+	.contactMe{
+		background-color: #FFFFFF;
+		clear: both;
+		color: #283890;
+		display: block;
+		font-size: 1.5em;
+		float: left;
+		padding-bottom: 15px;
+		opacity: .8;
+		width: 317px;
+		a{
+				padding: 5px 0;
+			}
+
+		.email{
+			margin-top: 15px;
+		}
+
+		.website{
+			margin-top: 15px;
+		}
+		.linkedIN{
+			margin-top: 15px;
+		}
+		.gitHub{
+			margin-top: 15px;
+		}
+		.contactCard{
+			margin-top: 25px;
+			font-size: .75em;
+		}
+	}
+}

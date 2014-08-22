@@ -1,4 +1,3 @@
-contact
-=======
+## My Contact Information
 
-My Business card for mobile view
+My Business card designed for mobile view
